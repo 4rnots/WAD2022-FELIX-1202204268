@@ -46,7 +46,7 @@
         $duration = $_POST['Start'];
         $checkout = '';
         $cartype = $_POST['Type'];
-        $phone = $_POST['Phone'];
+        $phone = $_P0ST['Phone'];
         $service = $_POST['service'];
         $service_dsply = 'no service';
         $total_price = 0;
@@ -94,11 +94,11 @@
                 <tbody>
                     <tr>
                         <th scope="row"><?=$book_num?></th>
-                        <td><?= $name?></td>
+                        <td><?= $nama?></td>
                         <td><?= $checkin_dsply?></td>
                         <td><?= $checkout?></td>
                         <td><?= $cartype?></td>
-                        <td><?= $phone?></td>
+                        <td><?= $Phone?></td>
                         <td>
                             <ul>
                                 <?=$service_dsply?>
