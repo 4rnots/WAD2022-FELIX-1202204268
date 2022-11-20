@@ -1,0 +1,10 @@
+.jumbotron {
+  padding: 10rem 8rem;
+  background-color: rgb(253, 253, 253);
+}
+h1 {
+  font-size: 50px;
+}
+.logo {
+  width: 100;
+}
