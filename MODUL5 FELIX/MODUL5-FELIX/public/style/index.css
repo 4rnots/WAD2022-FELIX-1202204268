@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.home {
+    min-height: 89vh;
+}
+
+.logo-nama {
+    position: relative;
+    top: 160px;
+}
+
+.mycar {
+    position: relative;
+    top: 40px;
+}
+
+.register-login {
+    min-height: 100vh;
+    background-image: url("../image/register-login.jpg");
+    background-size: cover;
+}
+
+.form {
+    width: 80%;
+}
+
+.login-toast {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+.home-showroom-toast {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
